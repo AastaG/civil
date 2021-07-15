@@ -1,0 +1,216 @@
+body{
+   font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #c6791f;
+    outline: 1px solid #c6791f;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+
+/*<!-- **********************************blog_list************************************* -->*/
+
+    section.civil_blog_list article {
+   font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #c6791f;
+    border-radius: 2px;
+    padding-bottom: 15%;
+    }
+    /*============artical=============*/
+           section.civil_blogs article {
+               font-family: 'Poppins', sans-serif;
+                border-bottom: 2px solid #c6791f;
+                border-radius: 2px;
+                margin-bottom: 55px;
+            }
+            article .meta_blog i {
+                        padding: 0 5px 0 10px;
+                        color: #c6791f;
+                       }
+
+            article .meta_blog a {
+                    text-decoration: none;
+                    color: #c6791f;
+                }
+                .meta_blog {
+                        margin-bottom: 15px;
+                    }
+                .meta_blog h2 {
+                    font-size: 25px;
+                    color: #535555;
+                    font-weight: 500;
+                }
+
+
+                @media screen and  (max-width:432px) {
+                    article .meta_blog i {
+                        padding: 0 10px 0 28px;
+                        color: #c6791f;
+                    }
+                }
+                 @media screen and  (max-width:314px) {
+                    article .meta_blog i {
+                        padding: 0 5px 0 66px;
+                        color: #c6791f;
+                    }
+                    .meta_blog h2 {
+                    font-size: 22px;
+                    color: #535555;
+                    font-weight: 500;
+                    margin-left: 30px;
+                }
+                }
+                @media screen and  (max-width:223px) {
+                    article .meta_blog i {
+                       padding: 1px 6px 0 3px;
+                        margin: 1 24px 1 1px;
+                        color: #c6791f;
+                    }
+                    article .meta_blog a {
+                        text-decoration: none;
+                        color: #c6791f;
+                        font-size: 12px;
+                    }
+                    .meta_blog h2 {
+                    font-size: 22px;
+                    color: #535555;
+                    font-weight: 500;
+                    margin:67px 0 0 0px;
+                }
+                }
+
+                @media screen and  (max-width:199px) {
+                    article .meta_blog i {
+                       padding: 11px 48px 0 66px;
+                        color: #c6791f;
+                        position: relative;
+                        right: 66px;
+                    }
+                    article .meta_blog a {
+                        text-decoration: none;
+                        color: #c6791f;
+                        font-size: 12px;
+                    }
+                    .meta_blog h2 {
+                    font-size: 22px;
+                    color: #535555;
+                    font-weight: 500;
+                    margin:67px 0 0 0px;
+                }
+                }
+
+                 @media screen and  (max-width:175px) {
+                    article .meta_blog i {
+                       padding: 11px 48px 0 66px;
+                        color: #c6791f;
+                        position: relative;
+                        right: 66px;
+                    }
+                    article .meta_blog a {
+                        text-decoration: none;
+                        color: #c6791f;
+                        font-size: 12px;
+                    }
+                    .meta_blog h2 {
+                    font-size: 22px;
+                    color: #535555;
+                    font-weight: 500;
+                    margin: 48px 0 0 0px;
+                }
+                }
+            /*===========span================*/
+            /*(((((((for date)))))))*/
+                .meta_blog.date_format span {
+                    display: block;
+                    font-size: 11px;
+                    font-weight: normal;
+                    }
+                    .meta_blog.date_format {
+                        background-color: #c6791f;
+                        border-radius: 30px;
+                        color: #fff;
+                        position: absolute;
+                        margin: 10px 0 0 0;
+                        width: 50px;
+                        height: 50px;
+                        padding: 6px 16px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 16px;
+                     }
+             /*((((((for paragraph))))))*/
+             .blog_paragraph p {
+                    line-height: 2;
+                    font-size: 16px;
+                    margin-bottom: 40px;
+                }
+   /* =========================left-bloglist============================*/
+        .left_blog .listing_of_blogs {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: unset;
+        }
+        .listing_of_blogs figure {
+            width: 30%;
+            margin-top: 6%;
+        }
+        .listing_of_blogs .detailing_of_blogs a {
+            text-decoration: none;
+            color: #292222;
+        }
+        h2.blog_post_title {
+            color: #c6791f;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #c6791f;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .detailing_of_blogs {
+            width: 80%;
+            margin-bottom: 0%;
+           font-family: 'Poppins', sans-serif;
+        }
+        .detailing_of_blogs h3 {
+                width: 70%;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 6px !important;
+                color: #5f5252;
+                
+            }
+            span.time {
+                color: #8f8f8f;
+            }
+
+            @media screen and  (max-width:959px) {
+                .listing_of_blogs figure {
+                    width: 60%;
+                    margin-top: 10%;
+                }
+                .detailing_of_blogs h3 {
+                    width: 100%;
+                    font-size: 13px;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 6px !important;
+                    color: #5f5252;
+                }
+            }
+
+
+/*========================blog_details==============================*/
+    blockquote span {
+    color: #adadad;
+    }
+    span cite {
+    font-weight: 600;
+`   }
+
